@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stick It Notes</title>
+</head>
+<body>
+    <div id="heading">
+        <h1>Stick-It Notes</h1>
+        <p id="RG">BY RISHI GUPTA</p>
+    </div>
+    <div id="form">
+        <form id="inputForm">
+            <input type="text" name="Title" id="new-note-title-input" class="inputText" placeholder="Title" autocomplete="off"
+                required autofocus>
+            <input type="text" name="Content" id="new-note-body-input" class="inputText" placeholder="Content" autocomplete="off"
+                required autofocus>
+                <button type="submit" id="btnSubmit" class="btn">Create Note</button>
+
+        </form>       
+    </div>
+
+    <h3 id="no-notes">No Notes found,add one!</h3>
+
+    <ul id="notes">
+    </ul>
+    
+    <script src="myscript.js"></script>
+</body>
+</html>
